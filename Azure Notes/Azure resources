@@ -1,0 +1,11 @@
+RabbitMQ Equivalent in Azure:
+Azure Service Bus: Azure Service Bus is a messaging service that enables communication between applications and services.It provides features like message queues and topics, which are similar to the publish-subscribe model in RabbitMQ.
+
+Couchbase Equivalent in Azure:
+Azure Cosmos DB: Azure Cosmos DB is a fully managed NoSQL database service that supports multiple data models, including document databases similar to Couchbase. It offers global distribution, automatic scaling, and comprehensive SLAs. It's important to note that Couchbase may offer additional features and capabilities, such as built-in NoSQL database functionality and support for JSON document storage.
+
+New Relic Equivalent in Azure:
+Azure Monitor and Application Insights: Azure Monitor provides a comprehensive solution for collecting, analyzing, and acting on telemetry from Azure and non-Azure resources. Application Insights is part of Azure Monitor and focuses on application performance monitoring (APM), including distributed tracing and log analytics. While not a direct equivalent to New Relic, Azure Monitor and Application Insights provide powerful monitoring and observability capabilities for Azure workloads.
+
+ELK Stack Equivalent in Azure:
+Azure Monitor and Azure Log Analytics: Azure Monitor includes Log Analytics, which provides log and performance data collection, analysis, and visualization. While it's not an ELK Stack replacement, it offers similar log analysis and query capabilities. You can use Azure Monitor with services like Azure Log Analytics, Azure Application Insights, and Azure Security Center for comprehensive observability.

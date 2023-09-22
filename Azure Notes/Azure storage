@@ -1,0 +1,16 @@
+Azure Storage Service Type Use Cases
+Azure Blob Storage Blobs (Objects) Media files, backups, data lakes, web app backend
+Azure Data Lake Storage Blob Storage Big data analytics, data warehousing
+Azure Blob Storage - Data Lake Gen2 Blob Storage (with Data Lake capabilities) Big data analytics, data warehousing
+Azure File Storage Files (SMB) Shared files, documents, app data with SMB
+Azure Table Storage Tables (NoSQL) Structured data, logging, IoT telemetry
+Azure Queue Storage Queues (Messages) Message-driven apps, service decoupling
+Azure Disk Storage Disks (Blocks) VM storage, databases, data-intensive apps
+Azure Premium Storage Disk Storage Mission-critical apps, high-performance workloads
+Azure Managed Disks Disk Storage VM storage, snapshots
+Azure Disk Backup Disk Storage Data protection, disaster recovery
+Azure Backup Disk Storage Backup and restore for various workloads
+Azure Shared Disks Disk Storage High-availability clusters, shared storage
+Azure Ultra Disk Disk Storage Demanding enterprise apps
+Azure NetApp Files Disk Storage (File Shares) Enterprise apps, databases, analytics
+Azure StorSimple Disk Storage Hybrid storage, data archiving, backup
