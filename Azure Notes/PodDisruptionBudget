@@ -1,0 +1,27 @@
+Pod disrurption budget
+
+A Pod Disruption Budget (PDB) is a resource policy in Kubernetes that allows you to specify how many replicas of a particular application or service can be simultaneously unavailable due to voluntary disruptions, such as rolling updates or maintenance, while maintaining a certain level of availability. PDBs help ensure that critical applications are not overly disrupted during maintenance or updates, thus minimizing the risk of downtime.
+
+Here are some key points about Pod Disruption Budgets:
+Objective: The main goal of a Pod Disruption Budget is to ensure high availability while performing necessary maintenance or updates on nodes or applications within a Kubernetes cluster.
+Granularity: PDBs are applied at the Pod level and can be fine-tuned for specific applications or services.
+Availability Targets: PDBs allow you to set availability targets, specifying the minimum number of healthy Pods that must be available during disruptions.
+Selectors: PDBs use label selectors to target specific Pods. You can create PDBs for different applications or services by selecting Pods based on their labels.
+Disruption Budget: The .spec.minAvailable field in a PDB specifies the minimum number of Pods that must be available. You can also use .spec.maxUnavailable to specify the maximum number of Pods that can be unavailable.
+Usage: PDBs are often used in conjunction with controllers like Deployments and StatefulSets. They help these controllers orchestrate rolling updates and scaling operations in a controlled manner.
+Here's an example of a simple PDB definition in YAML format:
+
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+name: my-app-pdb
+spec:
+minAvailable: 2
+selector:
+matchLabels:
+app: my-app
+
+In this example:
+The PDB is named my-app-pdb.
+It specifies that at least 2 Pods with the label app: my-app must be available during disruptions.
+By setting up Pod Disruption Budgets effectively, you can ensure that essential applications or services remain available during maintenance, updates, or other planned disruptions while maintaining the desired level of reliability.
