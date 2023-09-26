@@ -1,0 +1,42 @@
+## How to create Service Principals in Azure Portal
+
+Through Service principals we can access the azure resource
+Go to Active Directory>> app registration
+
+> > new registration
+> > give the service principal name
+> > click on Register
+> > once the service prinical is created
+> > note the application ID
+> > Tenant ID
+
+and also from certificates and secrets>> we can create certificates and client secrets
+
+> > click on client secret
+> > give expiry date>>click add
+> > we will get the key , make a copy of it
+
+Now the sergvice principal is shown in the app registrations and enterprise applications
+
+> > now we will assign the RBAC
+> > click on subscriptions
+> > click on pay as you go
+> > click on IAM
+> > click on ROle assignments
+> > click add
+> > add the role in the drop down as Contributor
+> > select
+> > Now our service principle is ready
+
+For finding Azure Tenenat ID
+AD>> Properties>>Directory ID
+
+Using CLI
+AZ login
+az ad sp create-for-rbac
+It will create the
+appID
+displayName
+name
+password
+tenant
