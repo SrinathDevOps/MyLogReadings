@@ -1,0 +1,25 @@
+categorise azure all resources according to iaas paas saas and give them in the table
+
+Azure provides a wide range of cloud resources that can be categorized into Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Below is a table categorizing some common Azure resources:
+
+Resource Type Examples of Azure Resources
+IaaS (Infrastructure as a Service)
+Virtual Machines Azure Virtual Machines (VMs)
+Virtual Networks Azure Virtual Network (VNet)
+Storage Accounts Azure Blob Storage, Azure Disk Storage
+Load Balancers Azure Load Balancer, Application Gateway
+PaaS (Platform as a Service)
+App Services Azure App Service (Web Apps, API Apps)
+Azure SQL Database Managed relational database service
+Azure Functions Serverless compute service
+Logic Apps Workflow automation
+Azure Kubernetes Service (AKS) Managed Kubernetes container orchestration
+SaaS (Software as a Service)
+Office 365 Suite of productivity apps (e.g., Word, Excel)
+Microsoft 365 Integrated SaaS offering (Office 365 + Windows 10 + Enterprise Mobility)
+Dynamics 365 Customer relationship management (CRM)
+Azure Active Directory (Azure AD) Identity and access management service
+Power BI Business intelligence and data visualization
+Azure DevOps Services Collaboration tools for software development
+Azure IoT Hub Internet of Things (IoT) platform
+Please note that Azure offers many more services beyond what's listed here. The categorization into IaaS, PaaS, and SaaS can vary depending on how the services are used and deployed within your specific application or solution.
