@@ -1,0 +1,20 @@
+time series database, relational database/sql database and no sql database difference in simple remeberble terms and and examples of those
+
+Certainly! Here are the differences between time series databases, relational (SQL) databases, and NoSQL databases in simple terms, along with examples:
+
+Time Series Database:
+
+Use Case: Ideal for handling data points collected over time, such as sensor readings, server metrics, or financial stock prices.
+Data Structure: Organized by timestamps, with each data point having a unique time identifier.
+Examples: InfluxDB, Prometheus, and Graphite.
+Relational (SQL) Database:
+
+Use Case: Best for structured data with well-defined relationships between tables, suitable for applications with complex querying needs.
+Data Structure: Data is organized into structured tables with rows and columns, and it enforces data integrity through relationships.
+Examples: MySQL, PostgreSQL, and Microsoft SQL Server.
+NoSQL Database:
+
+Use Case: Suited for unstructured or semi-structured data and applications that require horizontal scalability, like social media or content management systems.
+Data Structure: Data can be stored in various formats, including JSON, XML, or key-value pairs, and it doesn't require a fixed schema.
+Examples: MongoDB (document-based), Cassandra (column-family), and Redis (key-value).
+Remember, the choice of database depends on your specific application needs. Time series databases are optimized for time-series data, relational databases for structured data with relationships, and NoSQL databases for flexible, scalable storage of various data types.
